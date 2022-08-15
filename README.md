@@ -14,12 +14,5 @@ int main() {
 ```
 
 ### Ejecución
-<iframe
-    width="640"
-    height="480"
-    src="https://www.youtube.com/embed/UmX4kyB2wfg"
-    frameborder="0"
-    allow="autoplay; encrypted-media"
-    allowfullscreen
->
-</iframe>
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/rtkQoiVPM9M/0.jpg)](https://www.youtube.com/watch?v=rtkQoiVPM9M)
+[Link Here](https://youtu.be/rtkQoiVPM9M)
