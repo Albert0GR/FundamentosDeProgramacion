@@ -26,7 +26,7 @@ int main()
     cout<<suma<<" ";
     cout << fixed << setprecision(2) << promedio;
     cout<<" "<<mayor<<" "<<menor<<endl;
-    cout<<"fin del programa";
+    cout<<"fin del programa hhhhh";
 
 
     return 0;
