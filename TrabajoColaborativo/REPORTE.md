@@ -7,6 +7,10 @@
 >-Gutiérrez Romero Alberto
 >
 >-Valdés Osorio Maria Fernanda
+>
+> [LINK A GITHUB](https://github.com/Albert0GR/FundamentosDeProgramacion/blob/main/TrabajoColaborativo/REPORTE.md)
+>
+>[LINK CODIGO](https://github.com/Albert0GR/FundamentosDeProgramacion/blob/main/TrabajoColaborativo/menu.cc)
 
 ## Examen de funciones
 
