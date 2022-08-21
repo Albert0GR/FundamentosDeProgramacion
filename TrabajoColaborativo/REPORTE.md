@@ -56,8 +56,110 @@ return 0;
 }
 
 ```
+### Pseudocodigo
+
+```html
+Algoritmo funciones_menu
+    Repetir
+        opciones
+        Leer opc
+        Segun opc  Hacer
+            1:
+                operaciones
+            2:
+                serie
+            3:
+                suma_de_cuadrados
+            4:
+                coordenadas_convert
+            5:
+                numero_secreto
+            6:
+                area_perimetro
+            7:
+                raices_ecuacion
+            8:
+                numero_letras
+            0:
+                Escribir 'Hasta pronto'
+        FinSegun
+    Hasta Que opc≠0 Y opc>0 Y opc<9
+FinAlgoritmo
+```
+
+### Diagrama de flujo
+![image](img/DF_maiN.png)
 
 ### Ejecución
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/5shqNMgpoME&ab_channel/0.jpg)](https://www.youtube.com/watch?v=5shqNMgpoME&ab_channel)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/5shqNMgpoME/0.jpg)](https://youtu.be/5shqNMgpoME?t=5)
 
-[Link Here](https://youtu.be/rtkQoiVPM9M)
+[Main link](https://youtu.be/5shqNMgpoME?t=5)
+
+
+
+
+## Funcion  **opciones()**
+
+>text...
+
+
+### Código de la funcion **opciones()**:
+
+```c
+void opciones(){
+    
+    printf("\nSelecciona una opcion:");
+    printf("\n------------------------------------------------------------------");
+    printf("\n");
+    printf("\n\t1-Suma resta multiplicacion, division de numeros enteros");
+    printf("\n\t2-Serie 1 1 2 3 5 8 13");
+    printf("\n\t3-Desplegar la suma de cuadrados");
+    printf("\n\t4-Conversion de coordenadas");
+    printf("\n\t5-Numero secreto");
+    printf("\n\t6-Calcular area y perímetro");
+    printf("\n\t7-Raices de ecuación cuadratica");
+    printf("\n\t8-Convertir numero a letras");
+    printf("\n\t0-Salir");
+    printf("\n\t");
+}
+
+```
+### Pseudocodigo
+
+```html
+Algoritmo funciones_menu
+    Repetir
+        opciones
+        Leer opc
+        Segun opc  Hacer
+            1:
+                operaciones
+            2:
+                serie
+            3:
+                suma_de_cuadrados
+            4:
+                coordenadas_convert
+            5:
+                numero_secreto
+            6:
+                area_perimetro
+            7:
+                raices_ecuacion
+            8:
+                numero_letras
+            0:
+                Escribir 'Hasta pronto'
+        FinSegun
+    Hasta Que opc≠0 Y opc>0 Y opc<9
+FinAlgoritmo
+```
+
+### Diagrama de flujo
+![image](img/DF_opciones.png)
+
+### Ejecución
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/5shqNMgpoME/0.jpg)](https://youtu.be/5shqNMgpoME?t=66)
+
+[Main link](https://youtu.be/5shqNMgpoME?t=66)
+

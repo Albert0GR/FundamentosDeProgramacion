@@ -1,0 +1,124 @@
+<HTML><HEAD>
+	<TITLE>funciones_menu.psc</TITLE>
+	<STYLE type="text/css">
+		.SSD { color:#FFFFFF; background-color:#000000; }
+		.SS0 { color:#000000; background-color:#FFFFFF; }
+		.SS1 { color:#000000; background-color:#FFFFFF; }
+		.SS2 { font-style: italic; color:#969696; background-color:#FFFFFF; }
+		.SS3 { font-style: italic; color:#0000FF; background-color:#FFFFFF; }
+		.SS4 { color:#8E6B23; background-color:#FFFFFF; }
+		.SS5 { font-weight: bold; color:#000080; background-color:#FFFFFF; }
+		.SS6 { color:#FF0000; background-color:#FFFFFF; }
+		.SS7 { color:#FF0000; background-color:#FFFFFF; }
+		.SS8 { color:#DB70DB; background-color:#FFFFFF; }
+		.SS9 { color:#238E23; background-color:#FFFFFF; }
+		.SS10 { font-weight: bold; color:#000000; background-color:#FFFFFF; }
+		.SS11 { color:#000000; background-color:#FFFFFF; }
+		.SS12 { color:#FF0000; background-color:#F0F0F0; }
+		.SS13 { color:#000000; background-color:#FFFFFF; }
+		.SS14 { color:#DB70DB; background-color:#FFFFFF; }
+		.SS15 { color:#238E23; background-color:#FFFFFF; }
+		.SS16 { color:#000080; background-color:#FFFFFF; }
+		.SS17 { color:#42426F; background-color:#FFFFFF; }
+		.SS18 { color:#FF0000; background-color:#FFFFFF; }
+		.SS19 { color:#000000; background-color:#BFD8D8; }
+		.SS34 { font-weight: bold; color:#FF0000; background-color:#F0F0FF; }
+		.SS35 { font-weight: bold; color:#800000; background-color:#FFFFFF; }
+	</STYLE>
+</HEAD><BODY><PRE>
+<SPAN class="SS5">Funcion</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">opciones</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">'Selecciona una opcion:'</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">'------------------------------------------------------------------'</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">''</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">'1-Suma resta multiplicacion, division de numeros enteros'</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">'2-Serie 1 1 2 3 5 8 13'</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">'3-Desplegar la suma de cuadrados'</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">'4-Conversion de coordenadas'</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">'5-Numero secreto'</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">'6-Calcular area y perímetro'</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">'7-Raices de ecuación cuadratica'</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">'8-Convertir numero a letras'</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">'0-Salir'</SPAN><SPAN class="SS0">
+</SPAN><SPAN class="SS5">FinFuncion</SPAN><SPAN class="SS0">
+
+</SPAN><SPAN class="SS5">Funcion</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">operaciones</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">Definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">numero1</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS11">numero2</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS11">suma</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS11">multiplicacion</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS11">division</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS11">resta</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Real</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">'--------Operaciones---------'</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">'Ingrese numero A'</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">Leer</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">numero1</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">'Ingrese numero B:'</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">Leer</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">numero2</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS11">suma</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">numero1</SPAN><SPAN class="SS10">+</SPAN><SPAN class="SS11">numero2</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS11">resta</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">numero1</SPAN><SPAN class="SS10">-</SPAN><SPAN class="SS11">numero2</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS11">multiplicacion</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">numero1</SPAN><SPAN class="SS10">*</SPAN><SPAN class="SS11">numero2</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS11">division</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">numero1</SPAN><SPAN class="SS10">/</SPAN><SPAN class="SS11">numero2</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">'suma '</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS11">suma</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">'Resta:'</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS11">resta</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">'Multiplicacion:'</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS11">multiplicacion</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">'Division:'</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS11">division</SPAN><SPAN class="SS0">
+</SPAN><SPAN class="SS5">FinFuncion</SPAN><SPAN class="SS0">
+
+</SPAN><SPAN class="SS5">Funcion</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">serie</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">Definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">i</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS11">j</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS11">res</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS11">n</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS11">cont</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Entero</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">'Ingrese el numero de valores de la sucesion:'</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">Leer</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">n</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">Para</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">cont</SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS4">0</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Hasta</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">n</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Hacer</SPAN><SPAN class="SS0">
+        </SPAN><SPAN class="SS11">res</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">i</SPAN><SPAN class="SS10">+</SPAN><SPAN class="SS11">j</SPAN><SPAN class="SS0">
+        </SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">res</SPAN><SPAN class="SS0">
+        </SPAN><SPAN class="SS11">i</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">j</SPAN><SPAN class="SS0">
+        </SPAN><SPAN class="SS11">j</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">res</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">FinPara</SPAN><SPAN class="SS0">
+</SPAN><SPAN class="SS5">FinFuncion</SPAN><SPAN class="SS0">
+
+</SPAN><SPAN class="SS5">Funcion</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">suma_de_cuadrados</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">'hola'</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS2">// retorna el doble</SPAN><SPAN class="SS0">
+</SPAN><SPAN class="SS5">FinFuncion</SPAN><SPAN class="SS0">
+
+</SPAN><SPAN class="SS5">Funcion</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">coordenadas_convert</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">'hola'</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS2">// retorna el doble</SPAN><SPAN class="SS0">
+</SPAN><SPAN class="SS5">FinFuncion</SPAN><SPAN class="SS0">
+
+</SPAN><SPAN class="SS5">Funcion</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">numero_secreto</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">'hola'</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS2">// retorna el doble</SPAN><SPAN class="SS0">
+</SPAN><SPAN class="SS5">FinFuncion</SPAN><SPAN class="SS0">
+
+</SPAN><SPAN class="SS5">Funcion</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">area_perimetro</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">'hola'</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS2">// retorna el doble</SPAN><SPAN class="SS0">
+</SPAN><SPAN class="SS5">FinFuncion</SPAN><SPAN class="SS0">
+
+</SPAN><SPAN class="SS5">Funcion</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">raices_ecuacion</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">'hola'</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS2">// retorna el doble</SPAN><SPAN class="SS0">
+</SPAN><SPAN class="SS5">FinFuncion</SPAN><SPAN class="SS0">
+
+</SPAN><SPAN class="SS5">Funcion</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">numero_letras</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">'hola'</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS2">// retorna el doble</SPAN><SPAN class="SS0">
+</SPAN><SPAN class="SS5">FinFuncion</SPAN><SPAN class="SS0">
+
+</SPAN><SPAN class="SS5">Algoritmo</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">funciones_menu</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">Repetir</SPAN><SPAN class="SS0">
+        </SPAN><SPAN class="SS11">opciones</SPAN><SPAN class="SS0">
+        </SPAN><SPAN class="SS5">Leer</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">opc</SPAN><SPAN class="SS0">
+        </SPAN><SPAN class="SS5">Segun</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">opc</SPAN><SPAN class="SS0">  </SPAN><SPAN class="SS5">Hacer</SPAN><SPAN class="SS0">
+            </SPAN><SPAN class="SS4">1</SPAN><SPAN class="SS10">:</SPAN><SPAN class="SS0">
+                </SPAN><SPAN class="SS11">operaciones</SPAN><SPAN class="SS0">
+            </SPAN><SPAN class="SS4">2</SPAN><SPAN class="SS10">:</SPAN><SPAN class="SS0">
+                </SPAN><SPAN class="SS11">serie</SPAN><SPAN class="SS0">
+            </SPAN><SPAN class="SS4">3</SPAN><SPAN class="SS10">:</SPAN><SPAN class="SS0">
+                </SPAN><SPAN class="SS11">suma_de_cuadrados</SPAN><SPAN class="SS0">
+            </SPAN><SPAN class="SS4">4</SPAN><SPAN class="SS10">:</SPAN><SPAN class="SS0">
+                </SPAN><SPAN class="SS11">coordenadas_convert</SPAN><SPAN class="SS0">
+            </SPAN><SPAN class="SS4">5</SPAN><SPAN class="SS10">:</SPAN><SPAN class="SS0">
+                </SPAN><SPAN class="SS11">numero_secreto</SPAN><SPAN class="SS0">
+            </SPAN><SPAN class="SS4">6</SPAN><SPAN class="SS10">:</SPAN><SPAN class="SS0">
+                </SPAN><SPAN class="SS11">area_perimetro</SPAN><SPAN class="SS0">
+            </SPAN><SPAN class="SS4">7</SPAN><SPAN class="SS10">:</SPAN><SPAN class="SS0">
+                </SPAN><SPAN class="SS11">raices_ecuacion</SPAN><SPAN class="SS0">
+            </SPAN><SPAN class="SS4">8</SPAN><SPAN class="SS10">:</SPAN><SPAN class="SS0">
+                </SPAN><SPAN class="SS11">numero_letras</SPAN><SPAN class="SS0">
+            </SPAN><SPAN class="SS4">0</SPAN><SPAN class="SS10">:</SPAN><SPAN class="SS0">
+                </SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">'Hasta pronto'</SPAN><SPAN class="SS0">
+        </SPAN><SPAN class="SS5">FinSegun</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">Hasta</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Que</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">opc</SPAN><SPAN class="SS10">≠</SPAN><SPAN class="SS4">0</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Y</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">opc</SPAN><SPAN class="SS10">&gt;</SPAN><SPAN class="SS4">0</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Y</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">opc</SPAN><SPAN class="SS10">&lt;</SPAN><SPAN class="SS4">9</SPAN><SPAN class="SS0">
+</SPAN><SPAN class="SS5">FinAlgoritmo</SPAN><SPAN class="SS0">
+</SPAN>
+</PRE></BODY></HTML>
