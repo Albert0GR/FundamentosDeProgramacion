@@ -513,77 +513,289 @@ FinFuncion
 
 ---
 
-## Funcion  ****
+## Funcion  **numero_secreto()**
 
 >text...
 
-### Código de la funcion ****:
+### Código de la funcion **numero_secreto**:
 
 ```c
+void numero_secreto(){
 
+    int secreto =0;
+    int n;
+    secreto = rand() % 10 + 1;
+    printf("==Descubre el numero entero secreto================ \n\n");
+    printf("--El numero secreto esta en el rango de 0 a 9--\t");
+    scanf("%d", &n);
+        while (secreto != n){
+            if(secreto > n) printf("--El numero secreto es mayor--\t");
+                else printf("--El numero secreto es menor--\t");
+                
+            if (n %2 == 0 && secreto % 2 == 1 ) printf("El numero secreto es impar--\t");
+            
+            if (n % 2 ==1 && secreto % 2 == 0 ) printf("El numero secreto es par--\t");
+                scanf("%d", &n);
+            
+        };
+    
+    printf("\n * El numero secreto es: %d *", n);
+}
 ```
 ### Pseudocodigo
 
 ```html
-
+Funcion numero_secreto
+	definir secreto, n Como numero
+	secreto=azar(10)
+	Escribir 'ingresa el numero secreto'
+	Leer secreto
+	Mientras secreto <>n Hacer
+		si secreto>= n
+			Escribir 'el numero es mayor'
+		SiNo
+			Escribir 'el numero es menor'
+		FinSi
+		
+		si(n mod 2=0 y secreto mod 2 =1)
+			Escribir 'el numero es impar'
+		FinSi
+		
+		si(n mod 2=1 y secreto mod 2 =0)
+			Escribir 'el numero es par'
+			
+		FinSi
+		Leer n
+	FinMientras
+	
+	Escribir 'el numero secreto es:',n
+FinFuncion
 ```
 
 ### Diagrama de flujo
-![image](img/DF_.png)
+![image](img/DF_numero_secreto.png)
 
 ### Ejecución
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/5shqNMgpoME/0.jpg)](https://youtu.be/5shqNMgpoME?t=3)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/5shqNMgpoME/0.jpg)](https://youtu.be/5shqNMgpoME?t=65)
 
-[Opciones link](https://youtu.be/5shqNMgpoME?t=3)
+[Opciones link](https://youtu.be/5shqNMgpoME?t=65)
+
 
 ---
 
-## Funcion  ****
+## Funcion  **area_perimetro()**
 
 >text...
 
-### Código de la funcion ****:
+### Código de la funcion **area_perimetro()**:
 
 ```c
-
+void area_perimetro(){
+    float area, perimetro, a, b;
+    printf("Area y perimetro de rectangulo\n");
+    printf("-----------------------------------------");
+    printf("\nIngresa base:\t");
+    scanf("%a",&a);
+    printf("Ingresa altura:\t");
+    scanf("%a",&b);
+    //datos de entrada/
+    
+    //lectura de datos/
+    //scanf ("%f %f", &a, &b);
+    //validacion/
+        if(a>0 && b>0 && a<=100 && b<=200){
+    //Calculos/
+            area= a*b;
+            perimetro= 2*a + 2*b;
+    //desplegar resultados/
+            printf("\nArea = %f,Periemetro = %f\n",area,perimetro);
+        } else
+            printf("Las dimensiones del rectangulo no son validas");
+}
 ```
 ### Pseudocodigo
 
 ```html
-
+Funcion area_perimetro
+	Definir area, perimetro, a, b Como Real
+	Escribir 'ingresa base'
+	Leer a
+	Escribir 'ingresa altura'
+	leer b
+	
+	si(a>0 y b>0 y a<=100 y b<=200)
+		area=a*b
+		perimetro=2 * a + 2 * b
+		Escribir 'Area:',area
+		Escribir 'Perimetro:',perimetro
+	SiNo
+		Escribir 'dimensiones invalidas'
+	FinSi
+FinFuncion
 ```
 
 ### Diagrama de flujo
-![image](img/DF_.png)
+![image](img/DF_area_perimetro.png)
 
 ### Ejecución
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/5shqNMgpoME/0.jpg)](https://youtu.be/5shqNMgpoME?t=3)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/5shqNMgpoME/0.jpg)](https://youtu.be/5shqNMgpoME?t=85)
 
-[Opciones link](https://youtu.be/5shqNMgpoME?t=3)
+[Opciones link](https://youtu.be/5shqNMgpoME?t=85)
+
 
 ---
 
-## Funcion  ****
+## Funcion  **numero_letras()**
 
 >text...
 
-### Código de la funcion ****:
+### Código de la funcion **raices_ecuacion()**:
 
 ```c
+void raices_ecuacion(){
 
+    printf("Raices de una ecuación cuadrática\n");
+    printf("Ingresa en orden a b c");
+        /* datos de entrada*/
+    float a, b, c, d, x1, x2;
+        /* leer datos*/
+    printf("\n  \t\t");
+    scanf("%f %f %f", &a, &b, &c);
+        //validaciones/
+        d= b*b - 4*a*c;
+    
+        if(a!=0 && d >= 0){
+            x1 =(-b + sqrt(d))/(2*a);
+            x2 =(-b - sqrt(d))/(2*a);
+            printf("X1 = %f, X2 = %f", x1, x2);
+        }else{
+            printf("Sin solución");
+        }
+        
+    
+}
 ```
 ### Pseudocodigo
 
 ```html
-
+Funcion raices_ecuacion
+	Definir a,b,c,d,x1,x2 Como numero
+	Escribir 'Ingresa las constantes A B C respectivamente '
+	leer a,b,c
+	d = b*b -4*a*c
+	si(a<>0 y d>=0)
+		x1=(-b+ raiz(d)/2*a)
+		x1=(-b+ raiz(d)/2*a)
+		Escribir 'x1',x1
+		Escribir  'x2',x2
+	SiNo
+		Escribir 'Sin solucion'
+	FinSi
+	
+FinFuncion
 ```
 
 ### Diagrama de flujo
-![image](img/DF_.png)
+![image](img/DF_raices_ecuacion.png)
 
 ### Ejecución
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/5shqNMgpoME/0.jpg)](https://youtu.be/5shqNMgpoME?t=3)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/5shqNMgpoME/0.jpg)](https://youtu.be/5shqNMgpoME?t=96)
 
-[Opciones link](https://youtu.be/5shqNMgpoME?t=3)
+[Raices_ecuacion link](https://youtu.be/5shqNMgpoME?t=96)
+
+
+---
+
+## Funcion  **numero_letras()**
+
+>text...
+
+### Código de la funcion **numero_letras()**:
+
+```c
+void numero_letras(){
+    //datos de entrada/
+    int numero;
+    //lectura de datos/
+    printf(" Introduzca un numero entero [1-9]:\t");
+    scanf ("%d", &numero);
+
+    //validacion/
+    if( numero >=1 && numero <=10)
+   
+    switch (numero)
+  {
+    //desplegar resultados/
+    case 1: printf("\n uno");
+        break;
+    case 2: printf("\n dos");
+        break;
+    case 3: printf("\n tres");
+        break;
+    case 4: printf("\n cuatro");
+        break;
+    case 5: printf("\n cinco");
+        break;
+    case 6: printf("\n seis");
+        break;
+    case 7: printf("\n siete");
+        break;
+    case 8: printf("\n ocho");
+        break;
+    case 9: printf("\n nueve");
+        break;
+    case 10: printf("\n diez");
+        break;
+  } else
+    printf("\nEL NUMERO DEBE ESTAR EN EL RANGO VALIDO\n");
+}
+```
+### Pseudocodigo
+
+```html
+Funcion numero_letras
+	definir numero_ Como Entero
+	Escribir 'introduzca un numero entero(0-10)'
+	leer numero_
+	si (numero_>=1 y numero_ <=10)
+	
+		segun numero_ hacer
+			1:
+				Escribir 'UNO'
+			2:
+				Escribir 'DOS'
+			3:
+				Escribir 'TRES'
+			4:
+				Escribir 'CUATRO'
+			5:
+				Escribir 'CINCO'
+			6:
+				Escribir 'SEIS'
+			7:
+				Escribir 'SIETE'
+			8:
+				Escribir 'OCHO'
+			9:
+				Escribir 'NUEVE'
+			10:
+				Escribir 'DIEZ'
+		FinSegun	
+	sino
+		Escribir 'Numero invalido'
+	
+	FinSi
+FinFuncion
+```
+
+### Diagrama de flujo
+![image](img/DF_numero_letras.png)
+
+### Ejecución
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/5shqNMgpoME/0.jpg)](https://youtu.be/5shqNMgpoME?t=132)
+
+[Raices_ecuacion link](https://youtu.be/5shqNMgpoME?t=132)
+
+
 
 ---
