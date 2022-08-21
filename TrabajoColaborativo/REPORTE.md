@@ -6,6 +6,35 @@
 
 >El siguiente codigo muestra los programas vistos en clase , implementados como funciones.Mientras en la funcion **main()** se implementa un menu con las opciones a seleccionar que invocan las funciones mostradas a continuacion
 
+### Librerias utilizadas:
+
+```c
+#include <stdio.h>
+#include <stdlib.h>
+#include<math.h>
+```
+
+### Definicion de constantes:
+
+```c
+#define PI 3.14159265
+#define CONSTANTE 20
+```
+
+### Declaracion de funciones:
+```c
+void opciones();
+void polar_to_cartesian();
+void cartesian_to_polar();
+void numero_secreto();
+void raices_ecuacion();
+void area_perimetro();
+void numero_letras();
+void suma_de_cuadrados();
+void operaciones();
+void serie();
+void coordenadas_convert();
+```
 
 ### Código de la funcion **main()**:
 
@@ -58,7 +87,7 @@ return 0;
 ```
 ### Pseudocodigo
 
-```html
+```
 Algoritmo funciones_menu
     Repetir
         opciones
@@ -95,7 +124,7 @@ FinAlgoritmo
 
 [Main link](https://youtu.be/5shqNMgpoME?t=5)
 
-
+---
 
 
 ## Funcion  **opciones()**
@@ -159,7 +188,160 @@ FinAlgoritmo
 ![image](img/DF_opciones.png)
 
 ### Ejecución
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/5shqNMgpoME/0.jpg)](https://youtu.be/5shqNMgpoME?t=66)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/5shqNMgpoME/0.jpg)](https://youtu.be/5shqNMgpoME?t=3)
 
-[Main link](https://youtu.be/5shqNMgpoME?t=66)
+[Opciones link](https://youtu.be/5shqNMgpoME?t=3)
 
+
+---
+
+
+## Funcion  ****
+
+>text...
+
+### Código de la funcion ****:
+
+```c
+
+```
+### Pseudocodigo
+
+```html
+
+```
+
+### Diagrama de flujo
+![image](img/DF_.png)
+
+### Ejecución
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/5shqNMgpoME/0.jpg)](https://youtu.be/5shqNMgpoME?t=3)
+
+[Opciones link](https://youtu.be/5shqNMgpoME?t=3)
+
+---
+
+## Funcion  ****
+
+>text...
+
+### Código de la funcion ****:
+
+```c
+
+```
+### Pseudocodigo
+
+```html
+
+```
+
+### Diagrama de flujo
+![image](img/DF_.png)
+
+### Ejecución
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/5shqNMgpoME/0.jpg)](https://youtu.be/5shqNMgpoME?t=3)
+
+[Opciones link](https://youtu.be/5shqNMgpoME?t=3)
+
+---
+
+## Funcion  ****
+
+>text...
+
+### Código de la funcion ****:
+
+```c
+
+```
+### Pseudocodigo
+
+```html
+
+```
+
+### Diagrama de flujo
+![image](img/DF_.png)
+
+### Ejecución
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/5shqNMgpoME/0.jpg)](https://youtu.be/5shqNMgpoME?t=3)
+
+[Opciones link](https://youtu.be/5shqNMgpoME?t=3)
+
+---
+
+## Funcion  ****
+
+>text...
+
+### Código de la funcion ****:
+
+```c
+
+```
+### Pseudocodigo
+
+```html
+
+```
+
+### Diagrama de flujo
+![image](img/DF_.png)
+
+### Ejecución
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/5shqNMgpoME/0.jpg)](https://youtu.be/5shqNMgpoME?t=3)
+
+[Opciones link](https://youtu.be/5shqNMgpoME?t=3)
+
+---
+
+## Funcion  ****
+
+>text...
+
+### Código de la funcion ****:
+
+```c
+
+```
+### Pseudocodigo
+
+```html
+
+```
+
+### Diagrama de flujo
+![image](img/DF_.png)
+
+### Ejecución
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/5shqNMgpoME/0.jpg)](https://youtu.be/5shqNMgpoME?t=3)
+
+[Opciones link](https://youtu.be/5shqNMgpoME?t=3)
+
+---
+
+## Funcion  ****
+
+>text...
+
+### Código de la funcion ****:
+
+```c
+
+```
+### Pseudocodigo
+
+```html
+
+```
+
+### Diagrama de flujo
+![image](img/DF_.png)
+
+### Ejecución
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/5shqNMgpoME/0.jpg)](https://youtu.be/5shqNMgpoME?t=3)
+
+[Opciones link](https://youtu.be/5shqNMgpoME?t=3)
+
+---
