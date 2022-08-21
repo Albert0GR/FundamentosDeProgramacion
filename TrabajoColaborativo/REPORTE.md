@@ -88,7 +88,7 @@ FinAlgoritmo
 ```
 
 ### Diagrama de flujo
-![image](img/DF_maiN.png)
+![image](img/DF_main.png)
 
 ### Ejecución
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/5shqNMgpoME/0.jpg)](https://youtu.be/5shqNMgpoME?t=5)
