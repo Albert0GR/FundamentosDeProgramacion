@@ -14,6 +14,6 @@ int main() {
 ```
 
 ### Ejecución
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/rtkQoiVPM9M/0.jpg)](https://www.youtube.com/watch?v=rtkQoiVPM9M)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/rtkQoiVP9M/0.jpg)](https://www.youtube.com/watch?v=rtkQoVPM9M)
 
-[Link Here](https://youtu.be/rtkQoiVPM9M)
+[Link Here](https://youtu.be/rtkQoVPM9M)
