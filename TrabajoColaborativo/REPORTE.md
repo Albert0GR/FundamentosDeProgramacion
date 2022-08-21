@@ -310,28 +310,77 @@ FinFuncion
 
 ---
 
-## Funcion  ****
+## Funcion  **suma_de_cuadrados**
 
 >text...
 
 ### Código de la funcion ****:
 
 ```c
+void suma_de_cuadrados(){
+    int x=0;
+    int n=0;
+    int contador=0;
+    int cuadrado=0;
+    int impares=0;
 
+    printf("Secuencia de suma de cuadrados\n");
+    printf("Ingresa los numeros a mostrar:\t");
+    scanf("%d",&n);
+    
+    for(contador=1; contador<=n; contador++){
+       printf("\nNo. %d = ",contador);
+       cuadrado=0;
+       x=1;
+       do{
+           printf("%d",impares);
+           if(x<contador) printf("+");
+           cuadrado+=impares;
+           impares+=2;
+           x++;
+       }while(x<=contador);
+       
+        printf("= %d",cuadrado);
+    }
+    printf("\n");
+    
+}
 ```
 ### Pseudocodigo
 
 ```html
-
+Funcion suma_de_cuadrados
+	Definir x,n,contador,cuadrado,impares Como Entero
+	Escribir 'Secuencia de suma de cuadrados'
+	Escribir 'Ingresa los numeros a mostrar:'
+	Leer  n
+	
+	Para contador<-0 Hasta n Hacer 
+		Escribir 'No. =',contador
+		cuadrado=0
+		x=1
+		Repetir
+			Escribir impares
+			si x<contador
+				Escribir '+'
+				cuadrado=contador+impares
+				impares=impares+2
+				x=x+x
+			FinSi
+		Hasta Que x<=contador 
+	FinPara
+	
+FinFuncion
 ```
 
 ### Diagrama de flujo
-![image](img/DF_.png)
+![image](img/DF_suma_de_cuadrados.png)
 
 ### Ejecución
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/5shqNMgpoME/0.jpg)](https://youtu.be/5shqNMgpoME?t=3)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/5shqNMgpoME/0.jpg)](https://youtu.be/5shqNMgpoME?t=27)
 
-[Opciones link](https://youtu.be/5shqNMgpoME?t=3)
+[Suma_de_cuadrados link](https://youtu.be/5shqNMgpoME?t=27)
+
 
 ---
 
