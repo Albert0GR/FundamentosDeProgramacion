@@ -508,7 +508,7 @@ FinFuncion
 ### Ejecución
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/5shqNMgpoME/0.jpg)](https://youtu.be/5shqNMgpoME?t=35)
 
-[Opciones link](https://youtu.be/5shqNMgpoME?t=35)
+[coordenadas_convert link](https://youtu.be/5shqNMgpoME?t=35)
 
 
 ---
@@ -578,7 +578,7 @@ FinFuncion
 ### Ejecución
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/5shqNMgpoME/0.jpg)](https://youtu.be/5shqNMgpoME?t=65)
 
-[Opciones link](https://youtu.be/5shqNMgpoME?t=65)
+[numero_secreto link](https://youtu.be/5shqNMgpoME?t=65)
 
 
 ---
@@ -640,12 +640,12 @@ FinFuncion
 ### Ejecución
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/5shqNMgpoME/0.jpg)](https://youtu.be/5shqNMgpoME?t=85)
 
-[Opciones link](https://youtu.be/5shqNMgpoME?t=85)
+[area_perimetro link](https://youtu.be/5shqNMgpoME?t=85)
 
 
 ---
 
-## Funcion  **numero_letras()**
+## Funcion  **raices_ecuacion()**
 
 >text...
 
@@ -794,7 +794,7 @@ FinFuncion
 ### Ejecución
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/5shqNMgpoME/0.jpg)](https://youtu.be/5shqNMgpoME?t=132)
 
-[Raices_ecuacion link](https://youtu.be/5shqNMgpoME?t=132)
+[numero_letras link](https://youtu.be/5shqNMgpoME?t=132)
 
 
 
