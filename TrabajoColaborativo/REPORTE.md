@@ -195,29 +195,118 @@ FinAlgoritmo
 
 ---
 
-
-## Funcion  ****
+## Funcion  **operaciones()**
 
 >text...
 
-### Código de la funcion ****:
+### Código de la funcion **operaciones()**:
 
 ```c
+void operaciones(){
+    
+    float numero1,numero2;
+    float suma, multiplicacion, division, resta;
+    /* lectura de datos (entradas) */
+    printf("\n--------Operaciones---------");
+    printf("\nIngrese numero A:\t");
+    scanf("%f",&numero1);
+    printf("\nIngrese numero B:\t");
+    scanf("%f",&numero2);
+    
+    suma = numero1 + numero2;
+    resta = numero1 - numero2;
+    multiplicacion = numero1 * numero2;
+    division = numero1 / numero2;
+    /* desplegado de datos (salidas) */
+    printf("\n--------Resultados----------");
+    printf("\nSuma:        \t%.3f \n", suma);
+    printf("Resta:         \t%.3f\n", resta);
+    printf("Multiplicacion:\t%.3f\n", multiplicacion);
+    printf("Division:      \t%.3f\n", division);
+}
+```
+### Pseudocodigo
+
+```html
+Funcion operaciones
+    Definir numero1,numero2,suma,multiplicacion,division,resta Como Real
+    Escribir '--------Operaciones---------'
+    Escribir 'Ingrese numero A'
+    Leer numero1
+    Escribir 'Ingrese numero B:'
+    Leer numero2
+    suma ← numero1+numero2
+    resta ← numero1-numero2
+    multiplicacion ← numero1*numero2
+    division ← numero1/numero2
+    Escribir 'suma ',suma
+    Escribir 'Resta:',resta
+    Escribir 'Multiplicacion:',multiplicacion
+    Escribir 'Division:',division
+FinFuncion
+```
+
+### Diagrama de flujo
+![image](img/DF_operaciones.png)
+
+### Ejecución
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/5shqNMgpoME/0.jpg)](https://youtu.be/5shqNMgpoME?t=8)
+
+[Operaciones link](https://youtu.be/5shqNMgpoME?t=8)
+
+
+---
+
+
+## Funcion  ***serie()***
+
+>text
+
+### Código de la funcion **serie()**:
+
+```c
+void serie(){
+    int i, j, serie, N, cont;
+        printf("\nIngrese el numero de valores de la sucesion:\t");
+        scanf("%d", &N);
+        printf("\n");
+        i=0;
+        j=1;
+        for(cont=0; cont<N; cont++)
+        {
+            serie=i+j;
+            printf("%d ", serie);
+            i=j;
+            j=serie;
+        }
+        printf("\n");
+}
 
 ```
 ### Pseudocodigo
 
 ```html
-
+Funcion serie
+    Definir i,j,res,n,cont Como Entero
+    Escribir 'Ingrese el numero de valores de la sucesion:'
+    Leer n
+    Para cont←0 Hasta n Hacer
+        res ← i+j
+        Escribir res
+        i ← j
+        j ← res
+    FinPara
+FinFuncion
 ```
 
 ### Diagrama de flujo
-![image](img/DF_.png)
+![image](img/DF_serie.png) 
 
 ### Ejecución
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/5shqNMgpoME/0.jpg)](https://youtu.be/5shqNMgpoME?t=3)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/5shqNMgpoME/0.jpg)](https://youtu.be/5shqNMgpoME?t=18)
 
-[Opciones link](https://youtu.be/5shqNMgpoME?t=3)
+[Serie link](https://youtu.be/5shqNMgpoME?t=18)
+
 
 ---
 
