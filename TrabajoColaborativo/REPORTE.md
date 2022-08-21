@@ -1,4 +1,13 @@
 # FundamentosDeProgramacion
+
+>COMUNIDAD 2
+>
+>-Molina Flores Roberto Carlos
+>
+>-Gutiérrez Romero Alberto
+>
+>-Valdés Osorio Maria Fernanda
+
 ## Examen de funciones
 
 
