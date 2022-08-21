@@ -384,28 +384,132 @@ FinFuncion
 
 ---
 
-## Funcion  ****
+## Funcion  **coordenadas_convert**
 
 >text...
 
 ### Código de la funcion ****:
 
 ```c
+void coordenadas_convert(){
+    printf("\n       Conversion de coordenadas           ");
+    printf("\n-------------------------------------------");
+    printf("\n");
+    printf("\n1-Polares a cartesianas");
+    printf("\n2-Cartesianas a polares");
+    printf("\nIngresa una opción:\t");
+    scanf("%d",&opc4);
 
+    switch (opc4)
+    {
+    case 1:
+        polar_to_cartesian();
+        break;
+    case 2:
+        cartesian_to_polar();
+        break;    
+    default:
+        printf("Opcioón invalida");
+        break;
+    }
+
+}
+
+void polar_to_cartesian(){
+
+    double val = PI / 180;
+    double theta,r,x,y;
+
+    printf("Ingrese valor de magnitud(r):   \t");
+    scanf("%lf",&r);
+    printf("Ingrese valor de angulo(grados):\t");
+    scanf("%lf",&theta);              
+
+        x=r*cos(theta*val);
+        y=r*sin(theta*val);
+    printf("\nSalida de coordenadas cartesianas:");
+    printf("\n-----------------------------------");
+    printf("\n( x = %0.3lf , y = %0.3lf )\n",x,y);    
+}
+
+void cartesian_to_polar(){
+
+    double theta=0,r=0,x=0,y=0;
+    double val = PI / 180;
+    printf("\nIngrese valor de x:\t");
+    scanf("%lf",&x);
+    printf("Ingrese valor de y:\t");
+    scanf("%lf",&y);       
+               
+        r=sqrt(x*x+y*y);
+        theta=atan(y/x);
+        theta/=val;
+
+    printf("\nSalida de coordenadas polares:");
+    printf("\n------------------------------\n");
+    printf("r =   \t %0.3lf \ntheta =\t %0.3lf\n",r,theta);   
+
+}
 ```
 ### Pseudocodigo
 
 ```html
+Funcion coordenadas_convert
+	Escribir '1-Polares a cartesianas' 
+	Escribir '1-2-Cartesianas a polares' 
+	Escribir 'ingresa opcion'
+	segun opc Hacer
+		1:
+			polar_to_cartesian
+		2:
+			cartesian_to_polar
+					
+	FinSegun
+FinFuncion
 
+Funcion polar_to_cartesian
+	definir val, theta,r,x,y_ como numero
+	val=3.1416/180
+	Escribir 'Ingresa magnitud'
+	Leer r
+	Escribir 'Ingresa angulo'
+	Leer theta	
+	x=r*cos(theta*val)
+	y_=r*sen(theta*val)
+	
+	Escribir x
+	Escribir y_
+	
+FinFuncion
+
+Funcion cartesian_to_polar
+	definir val, theta,r,x,y_ como numero
+	val=3.1416/180
+	
+	Escribir 'Ingresa x'
+	Leer z
+	Escribir 'Ingresa y'
+	Leer y_
+	
+	r=raiz(x*x+y_*y_)
+	theta=atan(y_/x)
+	
+	Escribir r
+	Escribir theta
+	
+FinFuncion
 ```
 
 ### Diagrama de flujo
-![image](img/DF_.png)
+![image](img/DF_coordenadas_convert.png)
+![image](img/DF_cartesian_to_polar.png)
+![image](img/DF_polar_to_cartesian.png)
 
 ### Ejecución
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/5shqNMgpoME/0.jpg)](https://youtu.be/5shqNMgpoME?t=3)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/5shqNMgpoME/0.jpg)](https://youtu.be/5shqNMgpoME?t=35)
 
-[Opciones link](https://youtu.be/5shqNMgpoME?t=3)
+[Opciones link](https://youtu.be/5shqNMgpoME?t=35)
+
 
 ---
 
