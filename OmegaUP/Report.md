@@ -1,5 +1,8 @@
 # Omega up
 
+>Alberto Gutierrez Romero
+> 2213027799
+
 ## Problema 1 
 >Suma de enteros 
 
