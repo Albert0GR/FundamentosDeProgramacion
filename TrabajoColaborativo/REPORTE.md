@@ -8,7 +8,7 @@
 >
 >-Valdés Osorio Maria Fernanda
 >
-> [LINK A GITHUB](https://github.com/Albert0GR/FundamentosDeProgramacion/blob/main/TrabajoColaborativo/REPORTE.md)
+> [LINK A GITHUB](https://github.com/Albert0GR/FundamentosDeProgramacion/blob/main/HolaMundo/hello.cc)
 >
 >[LINK CODIGO](https://github.com/Albert0GR/FundamentosDeProgramacion/blob/main/TrabajoColaborativo/menu.cc)
 
