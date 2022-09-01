@@ -144,3 +144,193 @@ int main()
 
 ### Diagrama de flujo
 ![image](img/p3_Diagrama_cumulo.png)
+
+## Problema 4
+>La medida del tiempo
+
+### Código:
+
+```c
+#include <iostream>
+using namespace std;
+int constant[]={31536000,86400,3600,60};
+int var[4];
+int s=0,aux=0;
+
+int main() {
+
+  cin>>s;
+  for(int i=0;i<4;i++){
+    var[i]=s/constant[i];
+    aux=s%constant[i];
+    s=aux;
+    cout<<var[i]<<" ";
+  }
+    cout<<s;  
+
+  return 0;
+}
+ }
+```
+
+### Ejecución
+![image](img/p4_ejec.jpg)
+
+![image](img/p4_score.jpg)
+
+### Diagrama de flujo
+![image](img/p4_Diagrama%20en%20blanco%20(1).png)
+
+
+## Problema 5
+>Pitagoras
+
+### Código:
+
+```c
+
+#include <stdio.h>
+#include <math.h>
+
+
+float a=0,b=0,c=0;
+int main() {
+
+  if(scanf("%f",&a)&&scanf("%f",&b));  {
+    if(a>0 && a<3000 && b>0 && b<3000){
+     c=sqrt(a*a+b*b);
+
+  printf("%0.3f", c);
+
+  }
+  }
+ 
+
+  return 0;
+}
+```
+
+### Ejecución
+![image](img/p5_ejec.jpg)
+
+![image](img/p5_score.jpg)
+
+### Diagrama de flujo
+![image](img/p5_diagrama.png)
+
+
+## Problema 6
+>Parejas disparejas
+
+### Código:
+
+```c
+
+#include <iostream>
+using namespace std;
+int n,m;
+
+int s(int x);
+void parejas(int x,int y);
+
+int main()
+{
+    cin>>m>>n;
+    parejas(m,n);
+    parejas(m,m);
+    parejas(n,n);
+    
+
+
+    return 0;
+}
+
+int s(int x){
+    int aux=0,aux2=0,out_aux=0,out=0;
+    for(int i=2;i<=x;i++){
+        aux=x%i;
+        if(aux==0){
+            out_aux=x/i;
+            //cout<<out_aux<<" "<<i<<"|"<<endl;
+            out=out+out_aux;
+        }
+        
+    }
+    
+    return out;
+
+}
+
+void parejas(int m, int n){
+        if(s(m)==n && s(n)==m){
+            cout<<"0 ";
+        }else if(s(m)<=n && s(n)<=m){
+            cout<<"1 ";
+        }else if(s(m)>=n && s(n)>=m){
+            cout<<"2 ";
+        }else{
+            cout<<"3 ";
+        }
+    
+}
+```
+
+### Ejecución
+![image](img/p6_ejec.jpg)
+
+![image](img/p6_score.jpg)
+
+### Diagrama de flujo
+![image](img/p6_diagrama.png)
+
+## Problema 7
+>Un algoritmo de Gauss poco conocido
+
+### Código:
+
+```c
+
+#include <iostream>
+
+using namespace std;
+int a,b,c,d,e,f,g,h,i,j,m;
+
+int main()
+{
+    cin>>a;
+    b=(a/100)+1;
+    c=((3*b)/4)-12;
+    e=(a%19)+1;
+    f=((8*b)+5)/25-(5+c);
+    g=5*a/4-(c+10);
+    h=(11*e+20+f)%30;
+    if(h!=25){
+        if(h==24)h++;
+    }
+    if(e>11)h++;
+    i=44-h;
+    if(i<21)i=i+30;
+    j=i+7-((g+i)%7);
+    if(j<=31){
+        d=j;
+        m=3;
+    }else{
+        d=j-31;
+        m=4;
+    }
+    
+    cout<<d<<" "<<m;
+    
+    
+    return 0;
+}
+```
+
+### Ejecución
+![image](img/p7_ejec.jpg)
+
+![image](img/p7_score.jpg)
+
+### Diagrama de flujo
+![image](img/p7_diag.png)
+
