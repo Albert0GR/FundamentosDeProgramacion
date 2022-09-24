@@ -26,7 +26,7 @@ int main(){
 ### Ejecución
 ![image](img/p1_ejec.png)
 
-![image](img/p1_score.jpg)
+![image](img/p1_score.png)
 
 ### Diagrama de flujo
 ![image](img/DF1.png)
